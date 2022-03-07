@@ -1,12 +1,8 @@
-.nav-tabs {
-  border-bottom: none;
-}
+
 
 .nav-tabs > li.active > a, .nav-tabs > li.active > a:focus, .nav-tabs > li.active > a:hover {
-  color: #555;
   cursor: default;
   border: none;
-  border-bottom: solid 5px red;
   line-height: normal;
 }
 
@@ -20,7 +16,8 @@
 
 .nav-tabs > li > a:hover {
   border: none;
-  border-bottom: solid 5px gray;
+  border-bottom: solid 5px gray(20, 52, 233);
+  background-color: white;
 }
 
 .tab-content {
@@ -37,6 +34,8 @@
 
 .nav-tabs > li {
   float: left;
-  margin-bottom: -1px;
+  margin-bottom: 0px;
   width: 33.33%;
+  background-color: #F5B9CB;
+  opacity: 70%;
 }

@@ -1,6 +1,7 @@
 @import url(./minTablas.css);
 @import url(./tablaHeder.css);
 @import url(./footer.css);
+@import url(./contacto.css);
 
 .navStyle{
     background-color: var(--ColorWhite);
